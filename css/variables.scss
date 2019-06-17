@@ -1,10 +1,11 @@
 // Color MAP for the variables
 //normal var: $primary: #005dff;
-
 $colors: (
-  primary: #005dff,
+  primary: red,
   secondary: #005dff,
-  tekst: #fff
+  tekst: #fff,
+  footer: #571212,
+  wit: #ffffff
 );
 
 @function color($color-name) {

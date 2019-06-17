@@ -1,8 +1,48 @@
 body {
-  background-color: #005dff;
+  font-family: "Source Sans Pro";
+  background-color: red;
+  margin: 0;
+  color: #fff;
 }
 
-body header {
-  color: #fff;
+header {
+  background: #ffffff;
+  padding: 1em;
+}
+
+header a {
+  text-decoration: none;
+  color: red;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+main .container {
+  padding: 4em 1em;
+}
+
+main .container img {
+  width: 150px;
+}
+
+footer {
+  background: #571212;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  padding: 2em;
+  color: #e98a8a;
+}
+
+footer ul li span {
+  display: block;
+  font-size: 1.4em;
+  margin-bottom: 1em;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */

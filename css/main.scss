@@ -1,9 +1,56 @@
 @import "variables.scss";
 
 body {
+  font-family: "Source Sans Pro";
   background-color: color(primary);
+  margin: 0;
+  color: color(tekst);
+}
+// Header section //
+header {
+  background: color(wit);
+  padding: 1em;
 
-  header {
-    color: color(tekst);
+  a {
+    text-decoration: none;
+    color: color(primary);
+    font-size: 1.8em;
+    font-weight: 700;
   }
 }
+// Header section //
+
+//Main section//
+main {
+  .container {
+    padding: 4em 1em;
+
+    img {
+      width: 150px;
+    }
+  }
+}
+//Main section//
+
+//Footer Section//
+footer {
+  background: color(footer);
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding: 2em;
+      color: #e98a8a;
+
+      span {
+        display: block;
+        font-size: 1.4em;
+        margin-bottom: 1em;
+        color: white;
+      }
+    }
+  }
+}
+//Footer Section//
