@@ -1,0 +1,12 @@
+// Color MAP for the variables
+//normal var: $primary: #005dff;
+
+$colors: (
+  primary: #005dff,
+  secondary: #005dff,
+  tekst: #fff
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
